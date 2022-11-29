@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Listagem de Contatos";
+}
+
+<h1>Listagem de Contatos</h1>
+
+<div class="d-grid gap-2">
+    @*<button type="submit" class="btn btn-primary ">
+        Cadastrar Contatos
+    </button>*@
+    <a class="btn btn-secondary" asp-controller="Contato" asp-
+       action="Index" role="button">
+        Voltar
+    </a>
+    <a class="btn btn-primary" asp-controller="Contato" asp-action="Criar" 
+       role="button">
+    Adicionar novo contato</a>
+</div>
